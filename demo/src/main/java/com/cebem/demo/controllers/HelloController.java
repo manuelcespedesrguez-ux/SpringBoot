@@ -21,10 +21,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RestController
 public class HelloController {
     
-    @GetMapping("/")
+    /*@GetMapping("/")
     public String Hello() {
         return "Hello, World!";
-    }
+    }*/
 
     @GetMapping("/encender")
     public String encender() {
