@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 public class DemoApplication {
 
 	@Bean
-	public RestTemplate getrRestTemplate(){
+	public RestTemplate getresttemplate(){
 		return new RestTemplate();
 	}
 

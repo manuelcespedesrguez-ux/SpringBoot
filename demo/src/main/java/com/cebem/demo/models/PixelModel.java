@@ -12,11 +12,9 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class PixelModel {
-    
     private int x;
     private int y;
     private String color;
 
-    // Uso loombook y no necesito getter/setter/constructores
-
+    // Uso lombook y no necesito: Getter setters contructor toString
 }
